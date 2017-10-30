@@ -1,0 +1,234 @@
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+Resolving Dependencies
+--> Running transaction check
+---> Package httpd.x86_64 0:2.4.6-45.el7.centos will be installed
+--> Processing Dependency: httpd-tools = 2.4.6-45.el7.centos for package: httpd-2.4.6-45.el7.centos.x86_64
+--> Processing Dependency: /etc/mime.types for package: httpd-2.4.6-45.el7.centos.x86_64
+--> Processing Dependency: libaprutil-1.so.0()(64bit) for package: httpd-2.4.6-45.el7.centos.x86_64
+--> Processing Dependency: libapr-1.so.0()(64bit) for package: httpd-2.4.6-45.el7.centos.x86_64
+---> Package mod_wsgi.x86_64 0:3.4-12.el7_0 will be installed
+---> Package openstack-keystone.noarch 1:9.2.0-1.el7 will be installed
+--> Processing Dependency: python-keystone = 1:9.2.0-1.el7 for package: 1:openstack-keystone-9.2.0-1.el7.noarch
+--> Running transaction check
+---> Package apr.x86_64 0:1.4.8-3.el7 will be installed
+---> Package apr-util.x86_64 0:1.5.2-6.el7 will be installed
+---> Package httpd-tools.x86_64 0:2.4.6-45.el7.centos will be installed
+---> Package mailcap.noarch 0:2.1.41-2.el7 will be installed
+---> Package python-keystone.noarch 1:9.2.0-1.el7 will be installed
+--> Processing Dependency: python-sqlalchemy >= 1.0.10 for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: python-routes >= 1.12 for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: python-pycadf >= 2.1.0 for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: python-paste-deploy >= 1.5.0 for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: python-passlib >= 1.6 for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: python-oslo-service >= 1.7.0 for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: python-oslo-policy >= 0.5.0 for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: python-oslo-middleware >= 3.7.0 for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: python-oslo-messaging >= 4.5.0 for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: python-oslo-log >= 3.2.0 for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: python-oslo-db >= 4.6.0 for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: python-oslo-context >= 0.2.0 for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: python-oslo-concurrency >= 3.6.0 for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: python-oslo-cache >= 1.5.0 for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: python-migrate >= 0.9.6 for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: python-keystonemiddleware >= 4.3.0 for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: python-dogpile-cache >= 0.5.7 for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: python-pysaml2 for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: python-posix_ipc for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: python-oauthlib for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: python-ldappool for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: python-ldap for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: python-eventlet for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: python-cryptography for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Processing Dependency: PyPAM for package: 1:python-keystone-9.2.0-1.el7.noarch
+--> Running transaction check
+---> Package PyPAM.x86_64 0:0.5.0-19.el7 will be installed
+---> Package python-dogpile-cache.noarch 0:0.5.7-3.el7 will be installed
+--> Processing Dependency: python-dogpile-core >= 0.4.1 for package: python-dogpile-cache-0.5.7-3.el7.noarch
+---> Package python-keystonemiddleware.noarch 0:4.4.1-1.el7 will be installed
+---> Package python-ldap.x86_64 0:2.4.15-2.el7 will be installed
+---> Package python-ldappool.noarch 0:1.0-4.el7 will be installed
+---> Package python-migrate.noarch 0:0.10.0-1.el7 will be installed
+--> Processing Dependency: python-tempita >= 0.4 for package: python-migrate-0.10.0-1.el7.noarch
+--> Processing Dependency: python-sqlparse for package: python-migrate-0.10.0-1.el7.noarch
+---> Package python-oauthlib.noarch 0:0.7.2-5.20150520git514cad7.el7 will be installed
+---> Package python-paste-deploy.noarch 0:1.5.2-6.el7 will be installed
+--> Processing Dependency: python-paste for package: python-paste-deploy-1.5.2-6.el7.noarch
+---> Package python-posix_ipc.x86_64 0:0.9.8-1.el7 will be installed
+---> Package python-routes.noarch 0:1.13-2.el7 will be installed
+--> Processing Dependency: python-repoze-lru for package: python-routes-1.13-2.el7.noarch
+---> Package python-sqlalchemy.x86_64 0:1.0.11-1.el7 will be installed
+---> Package python2-cryptography.x86_64 0:1.3.1-3.el7 will be installed
+--> Processing Dependency: python-pyasn1 >= 0.1.8 for package: python2-cryptography-1.3.1-3.el7.x86_64
+--> Processing Dependency: python-idna >= 2.0 for package: python2-cryptography-1.3.1-3.el7.x86_64
+--> Processing Dependency: python-cffi >= 1.4.1 for package: python2-cryptography-1.3.1-3.el7.x86_64
+--> Processing Dependency: python-ipaddress for package: python2-cryptography-1.3.1-3.el7.x86_64
+--> Processing Dependency: python-enum34 for package: python2-cryptography-1.3.1-3.el7.x86_64
+---> Package python2-eventlet.noarch 0:0.17.4-4.el7 will be installed
+--> Processing Dependency: python-greenlet for package: python2-eventlet-0.17.4-4.el7.noarch
+---> Package python2-oslo-cache.noarch 0:1.6.0-1.el7 will be installed
+---> Package python2-oslo-concurrency.noarch 0:3.7.1-3.el7 will be installed
+--> Processing Dependency: python-retrying for package: python2-oslo-concurrency-3.7.1-3.el7.noarch
+--> Processing Dependency: python-fasteners for package: python2-oslo-concurrency-3.7.1-3.el7.noarch
+---> Package python2-oslo-context.noarch 0:2.2.0-2.el7 will be installed
+---> Package python2-oslo-db.noarch 0:4.7.1-1.el7 will be installed
+--> Processing Dependency: python-alembic >= 0.8.0 for package: python2-oslo-db-4.7.1-1.el7.noarch
+--> Processing Dependency: MySQL-python for package: python2-oslo-db-4.7.1-1.el7.noarch
+---> Package python2-oslo-log.noarch 0:3.3.0-1.el7 will be installed
+--> Processing Dependency: python-inotify for package: python2-oslo-log-3.3.0-1.el7.noarch
+--> Processing Dependency: python-dateutil for package: python2-oslo-log-3.3.0-1.el7.noarch
+---> Package python2-oslo-messaging.noarch 0:4.6.1-1.el7 will be installed
+--> Processing Dependency: python-kombu >= 3.0.7 for package: python2-oslo-messaging-4.6.1-1.el7.noarch
+--> Processing Dependency: python-futurist >= 0.1.2 for package: python2-oslo-messaging-4.6.1-1.el7.noarch
+--> Processing Dependency: python-pika_pool for package: python2-oslo-messaging-4.6.1-1.el7.noarch
+--> Processing Dependency: python-cachetools for package: python2-oslo-messaging-4.6.1-1.el7.noarch
+---> Package python2-oslo-middleware.noarch 0:3.8.0-1.el7 will be installed
+--> Processing Dependency: python-jinja2 for package: python2-oslo-middleware-3.8.0-1.el7.noarch
+---> Package python2-oslo-policy.noarch 0:1.6.0-1.el7 will be installed
+---> Package python2-oslo-service.noarch 0:1.8.0-1.el7 will be installed
+---> Package python2-passlib.noarch 0:1.6.5-1.el7 will be installed
+---> Package python2-pycadf.noarch 0:2.2.0-1.el7 will be installed
+--> Processing Dependency: python-pycadf-common = 2.2.0-1.el7 for package: python2-pycadf-2.2.0-1.el7.noarch
+---> Package python2-pysaml2.noarch 0:3.0.2-2.el7 will be installed
+--> Processing Dependency: python-zope-interface for package: python2-pysaml2-3.0.2-2.el7.noarch
+--> Processing Dependency: python-repoze-who for package: python2-pysaml2-3.0.2-2.el7.noarch
+--> Processing Dependency: pyOpenSSL for package: python2-pysaml2-3.0.2-2.el7.noarch
+--> Running transaction check
+---> Package MySQL-python.x86_64 0:1.2.5-1.el7 will be installed
+---> Package pyOpenSSL.noarch 0:0.15.1-1.el7 will be installed
+---> Package python-alembic.noarch 0:0.8.7-1.el7 will be installed
+--> Processing Dependency: python-mako for package: python-alembic-0.8.7-1.el7.noarch
+--> Processing Dependency: python-editor for package: python-alembic-0.8.7-1.el7.noarch
+---> Package python-cachetools.noarch 0:1.0.3-2.el7 will be installed
+---> Package python-dateutil.noarch 1:2.4.2-1.el7 will be installed
+---> Package python-dogpile-core.noarch 0:0.4.1-2.el7 will be installed
+---> Package python-enum34.noarch 0:1.0.4-1.el7 will be installed
+---> Package python-idna.noarch 0:2.0-1.el7 will be installed
+---> Package python-inotify.noarch 0:0.9.4-4.el7 will be installed
+---> Package python-ipaddress.noarch 0:1.0.16-3.el7 will be installed
+---> Package python-jinja2.noarch 0:2.7.2-2.el7 will be installed
+--> Processing Dependency: python-markupsafe for package: python-jinja2-2.7.2-2.el7.noarch
+---> Package python-kombu.noarch 1:3.0.32-1.el7 will be installed
+--> Processing Dependency: python-anyjson >= 0.3.3 for package: 1:python-kombu-3.0.32-1.el7.noarch
+--> Processing Dependency: python-amqp >= 1.4.5 for package: 1:python-kombu-3.0.32-1.el7.noarch
+---> Package python-paste.noarch 0:1.7.5.1-9.20111221hg1498.el7 will be installed
+---> Package python-pycadf-common.noarch 0:2.2.0-1.el7 will be installed
+---> Package python-repoze-lru.noarch 0:0.4-3.el7 will be installed
+---> Package python-repoze-who.noarch 0:2.1-1.el7 will be installed
+---> Package python-retrying.noarch 0:1.2.3-4.el7 will be installed
+---> Package python-sqlparse.noarch 0:0.1.18-5.el7 will be installed
+---> Package python-tempita.noarch 0:0.5.1-8.el7 will be installed
+---> Package python-zope-interface.x86_64 0:4.0.5-4.el7 will be installed
+---> Package python2-cffi.x86_64 0:1.5.2-1.el7 will be installed
+--> Processing Dependency: python-pycparser for package: python2-cffi-1.5.2-1.el7.x86_64
+---> Package python2-fasteners.noarch 0:0.14.1-4.el7 will be installed
+---> Package python2-futurist.noarch 0:0.13.0-1.el7 will be installed
+--> Processing Dependency: python-futures >= 3.0 for package: python2-futurist-0.13.0-1.el7.noarch
+--> Processing Dependency: python-contextlib2 >= 0.4.0 for package: python2-futurist-0.13.0-1.el7.noarch
+---> Package python2-greenlet.x86_64 0:0.4.9-1.el7 will be installed
+---> Package python2-pika_pool.noarch 0:0.1.3-3.el7 will be installed
+--> Processing Dependency: python-pika >= 0.9 for package: python2-pika_pool-0.1.3-3.el7.noarch
+---> Package python2-pyasn1.noarch 0:0.1.9-7.el7 will be installed
+--> Running transaction check
+---> Package python-amqp.noarch 0:1.4.6-1.el7 will be installed
+---> Package python-anyjson.noarch 0:0.3.3-3.el7 will be installed
+---> Package python-contextlib2.noarch 0:0.4.0-1.el7 will be installed
+---> Package python-editor.noarch 0:0.4-4.el7 will be installed
+---> Package python-futures.noarch 0:3.0.3-1.el7 will be installed
+---> Package python-mako.noarch 0:0.8.1-2.el7 will be installed
+--> Processing Dependency: python-beaker for package: python-mako-0.8.1-2.el7.noarch
+---> Package python-markupsafe.x86_64 0:0.11-10.el7 will be installed
+---> Package python-pycparser.noarch 0:2.14-1.el7 will be installed
+--> Processing Dependency: python-ply for package: python-pycparser-2.14-1.el7.noarch
+---> Package python2-pika.noarch 0:0.10.0-3.el7 will be installed
+--> Running transaction check
+---> Package python-beaker.noarch 0:1.5.4-10.el7 will be installed
+---> Package python-ply.noarch 0:3.4-10.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                  Arch   Version                        Repository
+                                                                           Size
+================================================================================
+Installing:
+ httpd                    x86_64 2.4.6-45.el7.centos            base      2.7 M
+ mod_wsgi                 x86_64 3.4-12.el7_0                   base       76 k
+ openstack-keystone       noarch 1:9.2.0-1.el7                  openstack  42 k
+Installing for dependencies:
+ MySQL-python             x86_64 1.2.5-1.el7                    base       90 k
+ PyPAM                    x86_64 0.5.0-19.el7                   base       25 k
+ apr                      x86_64 1.4.8-3.el7                    base      103 k
+ apr-util                 x86_64 1.5.2-6.el7                    base       92 k
+ httpd-tools              x86_64 2.4.6-45.el7.centos            base       84 k
+ mailcap                  noarch 2.1.41-2.el7                   base       31 k
+ pyOpenSSL                noarch 0.15.1-1.el7                   openstack 182 k
+ python-alembic           noarch 0.8.7-1.el7                    openstack 732 k
+ python-amqp              noarch 1.4.6-1.el7                    openstack  82 k
+ python-anyjson           noarch 0.3.3-3.el7                    openstack  12 k
+ python-beaker            noarch 1.5.4-10.el7                   base       80 k
+ python-cachetools        noarch 1.0.3-2.el7                    openstack  20 k
+ python-contextlib2       noarch 0.4.0-1.el7                    openstack  12 k
+ python-dateutil          noarch 1:2.4.2-1.el7                  openstack  83 k
+ python-dogpile-cache     noarch 0.5.7-3.el7                    openstack  59 k
+ python-dogpile-core      noarch 0.4.1-2.el7                    openstack  19 k
+ python-editor            noarch 0.4-4.el7                      openstack  12 k
+ python-enum34            noarch 1.0.4-1.el7                    base       52 k
+ python-futures           noarch 3.0.3-1.el7                    openstack  26 k
+ python-idna              noarch 2.0-1.el7                      base       92 k
+ python-inotify           noarch 0.9.4-4.el7                    base       49 k
+ python-ipaddress         noarch 1.0.16-3.el7                   openstack  34 k
+ python-jinja2            noarch 2.7.2-2.el7                    base      515 k
+ python-keystone          noarch 1:9.2.0-1.el7                  openstack 901 k
+ python-keystonemiddleware
+                          noarch 4.4.1-1.el7                    openstack  91 k
+ python-kombu             noarch 1:3.0.32-1.el7                 openstack 484 k
+ python-ldap              x86_64 2.4.15-2.el7                   base      159 k
+ python-ldappool          noarch 1.0-4.el7                      openstack  18 k
+ python-mako              noarch 0.8.1-2.el7                    base      307 k
+ python-markupsafe        x86_64 0.11-10.el7                    base       25 k
+ python-migrate           noarch 0.10.0-1.el7                   openstack 227 k
+ python-oauthlib          noarch 0.7.2-5.20150520git514cad7.el7 openstack 129 k
+ python-paste             noarch 1.7.5.1-9.20111221hg1498.el7   base      866 k
+ python-paste-deploy      noarch 1.5.2-6.el7                    openstack  46 k
+ python-ply               noarch 3.4-10.el7                     base      123 k
+ python-posix_ipc         x86_64 0.9.8-1.el7                    openstack  46 k
+ python-pycadf-common     noarch 2.2.0-1.el7                    openstack  11 k
+ python-pycparser         noarch 2.14-1.el7                     base      104 k
+ python-repoze-lru        noarch 0.4-3.el7                      openstack  12 k
+ python-repoze-who        noarch 2.1-1.el7                      openstack 118 k
+ python-retrying          noarch 1.2.3-4.el7                    openstack  16 k
+ python-routes            noarch 1.13-2.el7                     openstack 639 k
+ python-sqlalchemy        x86_64 1.0.11-1.el7                   openstack 3.3 M
+ python-sqlparse          noarch 0.1.18-5.el7                   openstack  74 k
+ python-tempita           noarch 0.5.1-8.el7                    openstack  32 k
+ python-zope-interface    x86_64 4.0.5-4.el7                    base      138 k
+ python2-cffi             x86_64 1.5.2-1.el7                    openstack 214 k
+ python2-cryptography     x86_64 1.3.1-3.el7                    base      471 k
+ python2-eventlet         noarch 0.17.4-4.el7                   openstack 247 k
+ python2-fasteners        noarch 0.14.1-4.el7                   openstack  37 k
+ python2-futurist         noarch 0.13.0-1.el7                   openstack 141 k
+ python2-greenlet         x86_64 0.4.9-1.el7                    openstack  30 k
+ python2-oslo-cache       noarch 1.6.0-1.el7                    openstack  44 k
+ python2-oslo-concurrency noarch 3.7.1-3.el7                    openstack  38 k
+ python2-oslo-context     noarch 2.2.0-2.el7                    openstack  15 k
+ python2-oslo-db          noarch 4.7.1-1.el7                    openstack 137 k
+ python2-oslo-log         noarch 3.3.0-1.el7                    openstack  52 k
+ python2-oslo-messaging   noarch 4.6.1-1.el7                    openstack 259 k
+ python2-oslo-middleware  noarch 3.8.0-1.el7                    openstack  43 k
+ python2-oslo-policy      noarch 1.6.0-1.el7                    openstack  36 k
+ python2-oslo-service     noarch 1.8.0-1.el7                    openstack  55 k
+ python2-passlib          noarch 1.6.5-1.el7                    openstack 488 k
+ python2-pika             noarch 0.10.0-3.el7                   openstack 195 k
+ python2-pika_pool        noarch 0.1.3-3.el7                    openstack  12 k
+ python2-pyasn1           noarch 0.1.9-7.el7                    base      100 k
+ python2-pycadf           noarch 2.2.0-1.el7                    openstack  46 k
+ python2-pysaml2          noarch 3.0.2-2.el7                    openstack 524 k
+
+Transaction Summary
+================================================================================
+Install  3 Packages (+67 Dependent packages)
+
+Total download size: 16 M
+Installed size: 79 M
